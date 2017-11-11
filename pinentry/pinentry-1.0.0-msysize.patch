@@ -1,7 +1,7 @@
-diff -Naur pinentry-0.9.1-orig/build-aux/config.guess pinentry-0.9.1/build-aux/config.guess
---- pinentry-0.9.1-orig/build-aux/config.guess	2015-03-18 13:38:54.000000000 +0300
-+++ pinentry-0.9.1/build-aux/config.guess	2015-05-02 10:51:40.813200000 +0300
-@@ -867,6 +867,9 @@
+diff -Naur pinentry-1.0.0-orig/build-aux/config.guess pinentry-1.0.0/build-aux/config.guess
+--- pinentry-1.0.0-orig/build-aux/config.guess	2016-11-22 07:30:56.000000000 +0000
++++ pinentry-1.0.0/build-aux/config.guess	2017-11-11 01:59:00.710167320 +0000
+@@ -891,6 +891,9 @@
      amd64:CYGWIN*:*:* | x86_64:CYGWIN*:*:*)
  	echo x86_64-unknown-cygwin
  	exit ;;
@@ -11,9 +11,9 @@ diff -Naur pinentry-0.9.1-orig/build-aux/config.guess pinentry-0.9.1/build-aux/c
      p*:CYGWIN*:*)
  	echo powerpcle-unknown-cygwin
  	exit ;;
-diff -Naur pinentry-0.9.1-orig/build-aux/config.rpath pinentry-0.9.1/build-aux/config.rpath
---- pinentry-0.9.1-orig/build-aux/config.rpath	2015-03-18 13:39:29.000000000 +0300
-+++ pinentry-0.9.1/build-aux/config.rpath	2015-05-02 10:51:14.106000000 +0300
+diff -Naur pinentry-1.0.0-orig/build-aux/config.rpath pinentry-1.0.0/build-aux/config.rpath
+--- pinentry-1.0.0-orig/build-aux/config.rpath	2015-03-18 10:39:29.000000000 +0000
++++ pinentry-1.0.0/build-aux/config.rpath	2017-11-11 01:59:00.710167320 +0000
 @@ -57,7 +57,7 @@
      aix*)
        wl='-Wl,'
@@ -59,9 +59,9 @@ diff -Naur pinentry-0.9.1-orig/build-aux/config.rpath pinentry-0.9.1/build-aux/c
      shrext=.dll
      library_names_spec='$libname.dll.a $libname.lib'
      ;;
-diff -Naur pinentry-0.9.1-orig/pinentry/pinentry-curses.c pinentry-0.9.1/pinentry/pinentry-curses.c
---- pinentry-0.9.1-orig/pinentry/pinentry-curses.c	2015-03-18 14:02:08.000000000 +0300
-+++ pinentry-0.9.1/pinentry/pinentry-curses.c	2015-05-02 10:52:54.760400000 +0300
+diff -Naur pinentry-1.0.0-orig/pinentry/pinentry-curses.c pinentry-1.0.0/pinentry/pinentry-curses.c
+--- pinentry-1.0.0-orig/pinentry/pinentry-curses.c	2016-11-05 10:12:41.000000000 +0000
++++ pinentry-1.0.0/pinentry/pinentry-curses.c	2017-11-11 01:59:00.710167320 +0000
 @@ -22,7 +22,7 @@
  #include <config.h>
  #endif
